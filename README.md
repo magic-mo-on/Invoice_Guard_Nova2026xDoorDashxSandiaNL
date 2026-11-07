@@ -16,10 +16,10 @@ From the DoorDash problem statement, *Back House: Business & Operational Complex
 
 We target:
 
-| Slide problem | What Invoice Guard does |
+| Problem | What Invoice Guard does |
 |---|---|
-| **03 Inventory Management & Forecasting** | Posting an approved invoice updates stock levels and supplier price history. A dashboard shows current stock and price trends. |
-| **04 Bookkeeping & Financial Health** | Combines invoices with orders and DoorDash payouts. Checks invoices for errors and fraud, reconciles payouts against orders, and shows true profit per dish. Every decision is audit-logged. |
+| **Inventory Management & Forecasting** | Posting an approved invoice updates stock levels and supplier price history. A dashboard shows current stock and price trends. |
+| **Bookkeeping & Financial Health** | Combines invoices with orders and DoorDash payouts. Checks invoices for errors and fraud, reconciles payouts against orders, and shows true profit per dish. Every decision is audit-logged. |
 
 Prize tracks: **Best Merchant Experience** (primary) and **Most Creative Solution** (the trust layer for AI on untrusted documents, plus a system that links several pain points).
 
@@ -201,20 +201,3 @@ To use your own data in the *Profit & payouts* tab, upload CSVs with these colum
 ## AI-assisted development disclosure
 
 This project was developed with assistance from Claude (Anthropic). No code from prior projects is used. Third-party libraries: Streamlit, pandas, OpenAI Python SDK (used against the OpenRouter API), python-dotenv.
-
----
-
-## Pushing this to GitHub
-
-```bash
-cd invoice-guard
-git init
-git add .
-git status            # confirm .env and guard.db are NOT listed
-git commit -m "Invoice Guard: AI invoice trust layer + payout reconciliation"
-git branch -M main
-git remote add origin https://github.com/<your-username>/invoice-guard.git
-git push -u origin main
-```
-
-Create the empty repository on github.com first (without a README, since this one already exists).
