@@ -21,8 +21,6 @@ We target:
 | **Inventory Management & Forecasting** | Posting an approved invoice updates stock levels and supplier price history. A dashboard shows current stock and price trends. |
 | **Bookkeeping & Financial Health** | Combines invoices with orders and DoorDash payouts. Checks invoices for errors and fraud, reconciles payouts against orders, and shows true profit per dish. Every decision is audit-logged. |
 
-Prize tracks: **Best Merchant Experience** (primary) and **Most Creative Solution** (the trust layer for AI on untrusted documents, plus a system that links several pain points).
-
 ---
 
 ## Features
