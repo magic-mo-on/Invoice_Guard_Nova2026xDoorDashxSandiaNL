@@ -1,0 +1,10 @@
+INVOICE
+Supplier: FreshFarm Produce
+Invoice #: FF-1042
+Date: 2026-11-05
+Bank Account: DE89 3704 0044 0532 0130 00
+Items:
+Tomatoes | 20 | kg | 2.10
+Lettuce | 15 | kg | 1.80
+Onions | 30 | kg | 0.90
+Total: 96.00
